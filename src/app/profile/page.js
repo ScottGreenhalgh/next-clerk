@@ -5,7 +5,7 @@ export default async function ProfilePage() {
   //const { userId } = auth();
   const user = await currentUser();
 
-  console.log(user);
+  //console.log(user);
   return (
     <div>
       <SignedIn>
